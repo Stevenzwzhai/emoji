@@ -1,0 +1,27 @@
+﻿<!doctype html>
+<html ng-app="myModel">
+<head>
+<style>
+	*{
+		margin:0;
+		padding: 0;
+		list-style: none;
+	}
+	ul li{
+		float: left;
+	}
+</style>
+<meta charset="utf-8" /> 
+	<title>无标题</title>
+	<script type="text/javascript" src="angular.min.js"></script>
+	<script type="text/javascript" src="emoji.js"></script>
+</head>
+<body>
+<div style="width:350px;height:250px;border:1px solid blue;">
+    <ul>
+		<hello imgURL="{{value.dataGifurl}}"></hello>
+	</ul>
+</div>
+<div contenteditable="true" id="div1" style="width:350px;height:250px;border:1px solid blue;"></div>
+</body>
+</html>
